@@ -2,7 +2,14 @@
 
 [Langflow]() is a GUI for experiments with langchain; `langflow_monarch_wrapper.json` can be imported to it (and langchain) and implements an OpenAPI agent toolkit, ostensibly mimicking ChatGPT plugins. The corresponding `openapi.json` is the JSON spec and assumes the [oai-monarch-plugin](https://github.com/monarch-initiative/oai-monarch-plugin) is running on localhost port 3434.
 
-To try it, load it into the langflow UI and open the `openapi.json` and enter your OpenAI key. 
+**Try it**: 
+
+* Run oai-monarch-plugin via `make dev`
+* run langflow
+* import `langflow_monarch_wrapper.json` in the UI
+* open/load `openapi.json` in the JSON block in the UI
+* enter OpenAI api key in the LLM block
+* use the "chat" icon in the lower right (and watch the langflow logs)
 
 Altnernatively it can be run via python (not tested, so I'm not sure where the JSON spec and API key are provided):
 
