@@ -4,9 +4,9 @@
 
 **Try it**: 
 
-* Run oai-monarch-plugin via `make dev`
+* Run [oai-monarch-plugin](https://github.com/monarch-initiative/oai-monarch-plugin) on localhost:3434 via `make dev`
 * run langflow
-* import `langflow_monarch_wrapper.json` in the UI
+* import `langflow_monarch_wrapper.json` in the langflow UI
 * open/load `openapi.json` in the JSON block in the UI
 * enter OpenAI api key in the LLM block
 * use the "chat" icon in the lower right (and watch the langflow logs)
@@ -23,4 +23,7 @@ flow("What genes are involved in Marfan's syndrome?")
 
 ## Basic tool using agent
 
-The `chat_thought_agent.ipynb` notebook contains experiments allowing gpt-3.5/4 to call tools as a set of pre-determined safe python functions. TODO: figure out how to use poetry with jupyter notebooks for dep management.
+The `chat_thought_agent.ipynb` notebook contains experiments allowing gpt-3.5/4 to call tools as a set of pre-determined safe python functions. It's in early stages, the model
+isn't always following directions well (still to try moving some of the instructions out of the system command, and using test functions other than `sum` and `product` which may be confusing for it)
+
+also TODO: figure out how to use poetry with jupyter notebooks for dep management.
