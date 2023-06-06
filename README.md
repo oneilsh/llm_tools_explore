@@ -26,4 +26,4 @@ flow("What genes are involved in Marfan's syndrome?")
 The `chat_thought_agent.ipynb` notebook contains experiments allowing gpt-3.5/4 to call tools as a set of pre-determined safe python functions. It's in early stages, the model
 isn't always following directions well (still to try moving some of the instructions out of the system command, and using test functions other than `sum` and `product` which may be confusing for it)
 
-also TODO: figure out how to use poetry with jupyter notebooks for dep management.
+Add your `OPENAI_API_KEY` to `.env`, and see `Makefile` for running.
