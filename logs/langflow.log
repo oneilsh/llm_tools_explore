@@ -1,0 +1,504 @@
+2023-06-06 08:09:38,692 - INFO - Logger set up with log level: 20(info)
+2023-06-06 08:09:38,696 - INFO - Log file: logs/langflow.log
+2023-06-06 08:09:51,613 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:09:51,613 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:09:51,702 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:09:51,710 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:09:51,710 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:09:51,724 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:41,607 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:41,663 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:41,678 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:41,679 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:41,681 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:41,681 - ERROR - File  is not accepted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 47, in post_validate_node
+    graph = build_graph(data)
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/run.py", line 50, in build_graph
+    return Graph(nodes, edges)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 43, in __init__
+    self._build_graph()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/graph.py", line 56, in _build_graph
+    node._build_params()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 93, in _build_params
+    file_path = cache_utils.save_binary_file(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/cache/base.py", line 119, in save_binary_file
+    raise ValueError(f"File {file_name} is not accepted")
+ValueError: File  is not accepted
+2023-06-06 08:10:46,150 - ERROR - Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 83, in instantiate_based_on_type
+    return class_object(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "pydantic/main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 123, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+2023-06-06 08:10:46,152 - ERROR - Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 83, in instantiate_based_on_type
+    return class_object(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "pydantic/main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 123, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+2023-06-06 08:10:46,153 - ERROR - Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 83, in instantiate_based_on_type
+    return class_object(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "pydantic/main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 123, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+2023-06-06 08:10:46,154 - ERROR - Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 83, in instantiate_based_on_type
+    return class_object(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "pydantic/main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 123, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node ChatOpenAI: 1 validation error for ChatOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+2023-06-06 08:11:09,286 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+2023-06-06 08:11:11,983 - ERROR - Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 195, in _build
+    self._built_object = loading.instantiate_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 41, in instantiate_class
+    return instantiate_based_on_type(class_object, base_type, node_type, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 69, in instantiate_based_on_type
+    return instantiate_tool(node_type, class_object, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/loading.py", line 100, in instantiate_tool
+    params["dict_"] = load_file_into_dict(params.pop("path"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/interface/utils.py", line 19, in load_file_into_dict
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/langflow/api/validate.py", line 53, in post_validate_node
+    node.build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/nodes.py", line 33, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 160, in _build
+    result = value.build()
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 212, in build
+    self._build()
+  File "/usr/local/lib/python3.11/site-packages/langflow/graph/base.py", line 201, in _build
+    raise ValueError(
+ValueError: Error building node JsonSpec: Expecting value: line 1 column 1 (char 0)
