@@ -7,12 +7,14 @@ readme = "README.md"
 packages = []
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.12"
 jupyter = "^1.0.0"
 asteval = "^0.9.29"
 openai = "^0.27.7"
 python-dotenv = "^1.0.0"
 colorlog = "^6.7.0"
+griptape = "^0.10.2"
+griptape-tools = "^0.12.3"
 
 
 [build-system]

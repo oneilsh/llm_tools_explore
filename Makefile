@@ -8,6 +8,7 @@ all: install export-requirements jupyter-server
 
 
 jupyter-server:
+	export $(shell cat .env | grep -v ^# | xargs)
 	poetry run jupyter notebook
 
 export-requirements:
